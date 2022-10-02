@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=======Browser Application Started==========]]>
+    </line>
+    <line>
+      <![CDATA[========Logged in to the application successfully=========]]>
+    </line>
+    <line>
+      <![CDATA[========User navigated to tansfer page successfully=========]]>
+    </line>
+    <line>
+      <![CDATA[========Transfer completed successfully=========]]>
+    </line>
+    <line>
+      <![CDATA[=======Browser Session Ends==========]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-02T13:16:54 IST" name="UI Test" finished-at="2022-10-02T13:17:09 IST" duration-ms="14840">
+    <groups>
+    </groups>
+    <test started-at="2022-10-02T13:16:54 IST" name="Functional Testing" finished-at="2022-10-02T13:17:09 IST" duration-ms="14840">
+      <class name="testCase.login_tc">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testCase.login_tc@6b81ce95]" started-at="2022-10-02T13:16:14 IST" name="browserSetup" finished-at="2022-10-02T13:16:54 IST" duration-ms="39287" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=======Browser Application Started==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="testcase1()[pri:0, instance:testCase.login_tc@6b81ce95]" started-at="2022-10-02T13:16:54 IST" name="testcase1" finished-at="2022-10-02T13:16:57 IST" duration-ms="2237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========Logged in to the application successfully=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.login_tc@6b81ce95]" started-at="2022-10-02T13:17:09 IST" name="tearDown" finished-at="2022-10-02T13:17:10 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=======Browser Session Ends==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.login_tc -->
+      <class name="testCase.transfer_tc">
+        <test-method signature="testcase3()[pri:0, instance:testCase.transfer_tc@222545dc]" started-at="2022-10-02T13:17:05 IST" name="testcase3" finished-at="2022-10-02T13:17:09 IST" duration-ms="3338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========Transfer completed successfully=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- testCase.transfer_tc -->
+      <class name="testCase.home_tc">
+        <test-method signature="testcase2()[pri:0, instance:testCase.home_tc@6ae5aa72]" started-at="2022-10-02T13:16:57 IST" name="testcase2" finished-at="2022-10-02T13:17:05 IST" duration-ms="8536" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========User navigated to tansfer page successfully=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- testCase.home_tc -->
+    </test> <!-- Functional Testing -->
+  </suite> <!-- UI Test -->
+</testng-results>

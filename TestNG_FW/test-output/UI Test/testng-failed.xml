@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Testing(failed)">
+    <classes>
+      <class name="testCase.home_tc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="browserSetup"/>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- testCase.home_tc -->
+      <class name="testCase.transfer_tc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="browserSetup"/>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- testCase.transfer_tc -->
+      <class name="testCase.login_tc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testcase1"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- testCase.login_tc -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [UI Test] -->
